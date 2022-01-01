@@ -35,8 +35,10 @@ class Solution {
             }
             index++;
         }
+        "asdf".replace
 
         return String.valueOf(charArrayId).replace(" ","");
+
     }
 
     //연속적인 '.' 제거
