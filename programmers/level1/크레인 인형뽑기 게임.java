@@ -9,7 +9,7 @@ class Solution {
         for(int move : moves){
             for(int[] row : board){
                 if(row[move - 1] != 0){
-                    if(basket.size() == 0 || basket.peek() != row[move-1]){
+                    if(basket.empty() || basket.peek() != row[move-1]){
                         basket.push(row[move - 1]);
                     }
                     else {
