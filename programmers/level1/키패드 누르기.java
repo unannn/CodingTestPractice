@@ -1,5 +1,6 @@
 class Solution {
-      enum Vertical{
+
+    enum Vertical{
         LEFT,
         MIDDLE,
         RIGHT
