@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int solution(String s) {
         int min = s.length();
-        for(int i = 1; i <= s.length();i++){
+        for(int i = 1; i <= s.length()/2;i++){
             String compress = getCompress(s, i);
             min = Math.min(min, compress.length());
         }
